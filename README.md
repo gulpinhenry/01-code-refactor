@@ -1,7 +1,7 @@
 # 01-code-refactor
 
 
-
+![Snapshot of Website](./assets/images/screenshot.JPG "Optional Title")
 
 [Deployment](https://gulpinhenry.github.io/01-code-refactor/)  
 ---

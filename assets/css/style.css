@@ -86,7 +86,7 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/*
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
@@ -100,9 +100,14 @@ main {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+}*/
+/* consolidated all the articles in the benefits class to apply the same css to all of them, making it more concise*/
+.benefits article {
+    margin-bottom: 32px;
+    color: #ffffff;
 }
 
-.benefit-lead h3 {
+/*.benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -115,9 +120,15 @@ main {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+}*/
+
+/*combined all the h3 tags in the aside region with the properties under one single method, making the code more concise */
+.benefits h3 {
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-.benefit-lead img {
+/*.benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -133,8 +144,14 @@ main {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+}*/
+/*combined all the images in the aside region with the properties under one single method, making the code more concise */
+.benefits img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
 }
-
+/*
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -160,9 +177,20 @@ main {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
-}
+}*/
 
-.search-engine-optimization img {
+/* combined all the section in the main region with the properties under one single method, making the code more concise*/
+main section {
+    
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    
+}
+/*.search-engine-optimization img {
     max-height: 200px;
 }
 
@@ -172,9 +200,14 @@ main {
 
 .social-media-marketing img {
     max-height: 200px;
+}*/
+
+/* combined all the images in the main section with the properties under one single method, making the code more concise*/
+main img{
+    max-height: 200px;
 }
 
-.search-engine-optimization h2 {
+/*.search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -188,7 +221,13 @@ main {
     margin-bottom: 20px;
     font-size: 36px;
 }
+*/
 
+/* combined all the headings in the main section with the properties under one single method, making the code more concise*/
+main h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
 footer {
     padding: 30px;
     clear: both;
